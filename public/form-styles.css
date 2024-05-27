@@ -29,7 +29,7 @@ form {
   padding: 20px 0;
   position: relative;
 }
-form input {
+ input {
   border: 1px solid rgba(252, 252, 252, 0.4);
   background-color: rgba(252, 252, 252, 0.2);
   width: 250px;
@@ -44,7 +44,7 @@ form input {
   font-weight: 300;
 }
 
-form button {
+button, form button {
   appearance: none;
   outline: 0;
   background-color: white;
@@ -54,4 +54,25 @@ form button {
   border-radius: 3px;
   width: 250px;
   font-size: 18px;
+  /* margin-top: 10px; */
+}
+
+.counter {
+  padding: 0px 20px;
+  background-color: #fff;
+  font-size: 90px;
+  margin-top: 30px;
+  color: #000;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+
+.flex {
+  margin: 0 30px;
+  gap: 20px;
+  display: flex;
 }
